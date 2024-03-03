@@ -8,7 +8,7 @@ h1,h2,h3,a {
 body{
 
     color:#000000;
-    background-color:#fff1e6;
+    background-color:antiquewhite;
     font-size:20px;
     line-height:1.5;
     font-family:"Raleway", sans-serif;
@@ -47,8 +47,12 @@ a {
     
 }
 
-.kontakt, .timeline {
+ .timeline {
     background-color: #b58f7b;
+}
+
+.kontakt{
+    background-color: #a18181;
 }
 
 .paticka {
@@ -113,4 +117,34 @@ section{
 
 ul {
     list-style-type: circle;
+}
+
+
+.timeline
+             {
+    width: 70%; 
+    float: left; 
+    box-sizing: border-box; 
+    padding: 50px; 
+    
+}
+
+.professionalskills{
+    width:30%;
+    float: left; 
+    box-sizing: border-box; 
+    padding: 50px; 
+    background-color:rgb(206, 159, 97);
+}
+
+.myhobbies{
+    width:30%;
+    float: left; 
+    box-sizing: border-box; 
+    padding: 50px; 
+    background-color:antiquewhite;
+
+}
+section:not(.timeline):not(.professionalskills):not(.myhobbies) {
+    clear: both; 
 }
